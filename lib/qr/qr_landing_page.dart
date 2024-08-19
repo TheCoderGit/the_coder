@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:the_coder/qr/qr_generator_page.dart';
-import 'package:the_coder/qr/qr_reader_page.dart';
+import 'package:The_Coder_Test_Lab/qr/qr_generator_page.dart';
+import 'package:The_Coder_Test_Lab/qr/qr_reader_page.dart';
 
 class QRLandingPage extends StatefulWidget {
   const QRLandingPage({super.key});

@@ -1,7 +1,7 @@
+import 'package:The_Coder_Test_Lab/qr/qr_login/pages/qr_login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:the_coder/calculator/calculator_bloc/calc_bloc.dart';
-import 'package:the_coder/qr/qr_landing_page.dart';
+import 'package:The_Coder_Test_Lab/calculator/calculator_bloc/calc_bloc.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,8 +15,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: BlocProvider(
         create: (_) => CounterBloc(),
-        child: const QRLandingPage(),
+        child: const QrLoginScreen(),
       ),
+      title: "The Coder Test lab",
     );
   }
 }

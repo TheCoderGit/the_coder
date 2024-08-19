@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:the_coder/calculator/calculator_bloc/calc_bloc.dart';
-import 'package:the_coder/calculator/calculator_bloc/calc_event.dart';
-import 'package:the_coder/calculator/calculator_bloc/calc_state.dart';
+import 'package:The_Coder_Test_Lab/calculator/calculator_bloc/calc_bloc.dart';
+import 'package:The_Coder_Test_Lab/calculator/calculator_bloc/calc_event.dart';
+import 'package:The_Coder_Test_Lab/calculator/calculator_bloc/calc_state.dart';
 
 class HomeScreen extends StatelessWidget {
   final TextEditingController _controller = TextEditingController();

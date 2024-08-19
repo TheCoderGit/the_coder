@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:the_coder/calculator/calculator_bloc/calc_event.dart';
-import 'package:the_coder/calculator/calculator_bloc/calc_state.dart';
+import 'package:The_Coder_Test_Lab/calculator/calculator_bloc/calc_event.dart';
+import 'package:The_Coder_Test_Lab/calculator/calculator_bloc/calc_state.dart';
 
 class CounterBloc extends Bloc<CounterEvent, CounterState> {
   int _firstNumber = 0;
